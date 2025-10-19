@@ -1,0 +1,17 @@
+Metric,Value
+Epochs Trained,100
+Last Epoch mAP@0.5,0.9937
+Last Epoch mAP@0.5:0.95,0.9466
+Last Epoch Precision,0.9892
+Last Epoch Recall,0.9846
+Last Epoch Box Loss,0.0093
+Last Epoch Objectness Loss,0.0063
+Last Epoch Classification Loss,0
+Best Epoch Number,86
+Best Epoch mAP@0.5,0.9939
+Best Epoch mAP@0.5:0.95,0.9517
+Best Epoch Precision,0.9889
+Best Epoch Recall,0.9846
+Best Epoch Box Loss,0.0089
+Best Epoch Objectness Loss,0.0062
+Best Epoch Classification Loss,0

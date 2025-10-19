@@ -1,0 +1,6 @@
+# train: /dev/null            # not used here
+train: /Users/miller_biggelaar/Library/CloudStorage/OneDrive-UWA/Engineering Research Project/Project-code/lists/train.txt
+val:   /Users/miller_biggelaar/Library/CloudStorage/OneDrive-UWA/Engineering Research Project/Project-code/lists/val.txt
+test:  /Users/miller_biggelaar/Library/CloudStorage/OneDrive-UWA/Engineering Research Project/Project-code/lists/test.txt
+nc: 1
+names: [weed]

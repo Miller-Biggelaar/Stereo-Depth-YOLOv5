@@ -1,0 +1,41 @@
+=== Results Summary for ./yolov5/runs/train/synthetic_weed_detector_v12: ===
+
+Total Epochs Trained: 100
+
+--- Metrics from Last Epoch ---
+
+mAP@0.5: 0.9937
+
+mAP@0.5:0.95: 0.9466
+
+Precision: 0.9892
+
+Recall: 0.9846
+
+Box Loss: 0.0093
+
+Objectness Loss: 0.0063
+
+Classification Loss: 0.0000
+
+
+--- Metrics from Best Epoch (by mAP@0.5) ---
+
+Epoch: 86
+
+mAP@0.5: 0.9939
+
+mAP@0.5:0.95: 0.9517
+
+Precision: 0.9889
+
+Recall: 0.9846
+
+Box Loss: 0.0089
+
+Objectness Loss: 0.0062
+
+Classification Loss: 0.0000
+
+
+Best Model Saved at: ./yolov5/runs/train/synthetic_weed_detector_v12/weights/best.pt

@@ -1,0 +1,41 @@
+=== Results Summary for ./yolov5/runs/train/synth_plus_real_ft13: ===
+
+Total Epochs Trained: 38
+
+--- Metrics from Last Epoch ---
+
+mAP@0.5: 0.9950
+
+mAP@0.5:0.95: 0.6121
+
+Precision: 0.9978
+
+Recall: 1.0000
+
+Box Loss: 0.0277
+
+Objectness Loss: 0.0376
+
+Classification Loss: 0.0000
+
+
+--- Metrics from Best Epoch (by mAP@0.5) ---
+
+Epoch: 12
+
+mAP@0.5: 0.9950
+
+mAP@0.5:0.95: 0.5598
+
+Precision: 1.0000
+
+Recall: 0.9981
+
+Box Loss: 0.0310
+
+Objectness Loss: 0.0394
+
+Classification Loss: 0.0000
+
+
+Best Model Saved at: ./yolov5/runs/train/synth_plus_real_ft13/weights/best.pt

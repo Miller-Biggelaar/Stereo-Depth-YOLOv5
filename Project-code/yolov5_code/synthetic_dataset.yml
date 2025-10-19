@@ -1,0 +1,8 @@
+# --- Synthetic Dataset Definition for YOLOv5 Training ---
+
+path: ../synthetic_dataset  # Root directory of dataset
+train: images/train  # Subdirectory with training images
+val: images/val      # Subdirectory with validation images
+
+nc: 1  # Number of classes (you have only 'weed')
+names: ['weed']  # Class names
