@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['weed']
+
+roboflow:
+  workspace: val-hg5lk
+  project: weed-detection-btl0r
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/val-hg5lk/weed-detection-btl0r/dataset/2
