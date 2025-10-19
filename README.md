@@ -25,31 +25,6 @@ The project demonstrates a low-cost, embedded vision solution for precision agri
 	•	 Stereo calibration utilities (capture_calibration_images_picamera2.py, calibration_compute.py, verify_stereo_calibration.py)
 	•	 Designed for reproducibility and open research
   
-🧱 Repository Structure
-  Stereo-Weed-Detection/
-│
-├── yolov5/                          # YOLOv5 repository (custom trained model)
-├── realworld_images/                # Captured stereo image pairs
-│   ├── left_images/
-│   └── right_images/
-│
-├── CSVrepo/                         # Processed data and analysis scripts
-│   ├── analyse_depth_performance.py
-│   ├── measured_distance.csv
-│   └── detections_with_depth_*.csv
-│
-├── calibration/                     # Calibration and rectification utilities
-│   ├── capture_calibration_images_picamera2.py
-│   ├── calibration_compute.py
-│   ├── calibration_save.py
-│   └── verify_stereo_calibration.py
-│
-├── batch_depthmap_with_yolo_timed.py  # Combined YOLO + depth timing evaluation
-├── singlepair_depthmap.py              # Depth mapping for single stereo pair
-├── detect_only_on_folder.py            # Object detection without depth mapping
-├── other misc. files
-└── README.md
-
 ⚙️ Setup and Installation
 
 Requirements:
